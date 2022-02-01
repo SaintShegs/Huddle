@@ -1,0 +1,588 @@
+
+
+.head{
+background-image: url(./images/bg-hero-desktop.svg);
+/* width: 100%; */
+
+background-size: contain;
+height: auto;
+padding: 2%;
+/* background-color: yellow; */
+/* border-style: dashed; */
+background-color: lightblue;
+}
+
+.header{
+    display: flex;
+}
+.tif{
+    /* padding: 10px; */
+    background-color: white;
+    width: 120px;
+    border-radius: 45px;
+    margin-left: 37%;
+    cursor: pointer;
+}
+.log{
+    margin-left: 10%;
+    /* margin-top: 20px; */
+}
+.sec{
+    /* display:flex; */
+    /* justify-content: space-between;  */
+    margin-left: 10%;
+     padding-top: 5%; 
+     width: 80%;
+}
+.red{
+    padding-top: 2%;
+     position: relative;
+      top: 50px; 
+}
+
+.wid{
+    width: 50%;
+}
+.trial{
+    background-image: url(./images/bg-hero-desktop.svg);
+    border-style: dashed;
+    background-size:cover;
+    background-position: center;
+    height: auto;
+    width: auto;
+    background-size: contain;  
+}
+.fir{
+    width: 50%;
+    padding-top: 30px;
+    height: 300px;
+    /* float: left; */
+    height: auto;
+    margin-left: 100px;
+    /* background-color:green; */
+}
+.fle{
+    display: flex;
+}
+
+.mok{
+    width: 50%;
+    padding-top: 30px;
+    /* margin-left: 25%; */
+    /* background-color: hotpink; */
+}
+.mokk{
+    /* width: 350px; */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.get{
+    padding: 10px;
+    color: white;
+    background-color:palevioletred;
+    width: 50%;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.get2{
+    margin-left: 15%;
+    width: 65%;
+}
+.imgg{
+    /* border-style: double; */
+    /* background-color: green; */
+    /* margin-left: 250px; */
+    width: 50%;
+}
+.gro{
+    /* border-style: double; */
+    width: 50%;
+}
+.second{
+    /* border-style: dashed; */
+    display: flex;
+    /* box-shadow: 2px 5px 3px 4px whitesmoke;  */
+    box-shadow: -1px -1px 13px 10px whitesmoke;
+    padding: 5%;
+    border-radius: 30px;  
+}
+.grow{
+    /* width: 360px; */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.grow2{  
+    /* width: 267px; */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.four{
+    /* border-style: double; */
+    width: 26%;
+    margin-left:39%;
+    padding: 1%;
+    background-color: white;
+    /* box-shadow: 2px 0px 0px 2px whitesmoke; */
+    box-shadow: 2px 5px 3px 4px whitesmoke;
+    border-radius: 15px;
+}
+
+.foot{
+    height: auto;
+    display: flex;
+    border-style: double;
+    bottom: 0px;
+    background-color: rgb(6, 27, 6);
+}
+
+.animate__animated.animate__bounceInLeft{
+    --animate-duration: 4s;
+  }
+  .animate__animated.animate__rotateIn{
+    --animate-duration:2s;
+    animation-delay: 2s;
+}
+.animate__animated__bounceInRight{ 
+    --animate-duration: 4s;
+    animation-delay: 2s;
+  }
+  .animate__animated__bounceInLeft{ 
+    --animate-duration: 4s;
+    animation-delay: 4s;
+  }
+  .animate__animated__bounceInRight{
+    --animate-duration: 4s;
+    animation-delay: 6s;
+  }
+  .foo{
+      color: white;
+/* border-style: double; */
+/* background-color: yellow; */
+    width: 30%;
+    padding:20px;
+    margin-top: 50px;
+  }
+  .lin{
+      margin-top: 100px;  
+        padding-left: 80px;   
+  }
+  a{
+      color: white;
+        display: block;
+        margin: 15px;
+      text-decoration: none;
+  }
+  .fa{
+      border-radius: 50%;
+      border-style: none;
+      text-decoration: none;
+      width: 20px;
+      padding: 5px;
+      list-style-type: none; 
+  }
+  .fot{
+      display: flex;      
+  }
+  .icon{
+      padding-right: 10px;
+  }
+
+ 
+@media (max-width: 768px) {
+      
+    .head{
+        background-image: url(./images/bg-hero-desktop.svg);
+        /* width: 100%; */
+        
+        background-size: contain;
+        height: auto;
+        padding: 2%;
+        /* background-color: yellow; */
+        /* border-style: dashed; */
+        background-color: lightblue;
+        }
+        
+        .header{
+            display: flex;
+        }
+        .tif{
+            /* padding: 10px; */
+            background-color: white;
+            width: 120px;
+            border-radius: 45px;
+            margin-left: 37%;
+            cursor: pointer;
+        }
+        .log{
+            margin-left: 1%;
+            width: 110px;
+            /* margin-top: 20px; */
+        }
+        .sec{
+            /* display:flex; */
+            /* justify-content: space-between;  */
+            margin-left: 5%;
+             padding-top: 5%; 
+             width: 90%;
+        }
+        .red{
+            padding-top: 2%;
+             position: relative;
+              top: 50px; 
+        }
+        
+        .wid{
+            width: 50%;
+        }
+        .trial{
+            background-image: url(./images/bg-hero-desktop.svg);
+            border-style: dashed;
+            background-size:cover;
+            background-position: center;
+            height: auto;
+            width: auto;
+            background-size: contain;  
+        }
+        .fir{
+            width: 50%;
+            padding-top: 30px;
+            height: 300px;
+            /* float: left; */
+            height: auto;
+            margin-left: 15px;
+            /* background-color:green; */
+        }
+        .fle{
+            display: flex;
+        }
+        
+        .mok{
+            width: 50%;
+            padding-top: 30px;
+            /* margin-left: 25%; */
+            /* background-color: hotpink; */
+        }
+        .mokk{
+            /* width: 350px; */
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        .get{
+            padding: 10px;
+            color: white;
+            background-color:palevioletred;
+            width: 50%;
+            border-radius: 45px;
+            cursor: pointer;
+        }
+        .get2{
+            margin-left: 15%;
+            width: 65%;
+        }
+        .imgg{
+            /* border-style: double; */
+            /* background-color: green; */
+            /* margin-left: 250px; */
+            width: 50%;
+        }
+        .gro{
+            /* border-style: double; */
+            width: 50%;
+        }
+        .second{
+            /* border-style: dashed; */
+            display: flex;
+            /* box-shadow: 2px 5px 3px 4px whitesmoke;  */
+            box-shadow: -1px -1px 13px 10px whitesmoke;
+            padding: 5%;  
+            border-radius: 30px;
+        }
+        .grow{
+            /* width: 330px; */
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        
+        .grow2{  
+            /* width: 267px; */
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        .four{
+            /* border-style: double; */
+            width: 40%;
+            margin-left:30%;
+            padding: 1%;
+            background-color: white;
+            /* box-shadow: 2px 0px 0px 2px whitesmoke; */
+            border-radius: 15px;
+            box-shadow: 2px 5px 3px 4px whitesmoke;
+        }
+        
+        .foot{
+            height: auto;
+            display: flex;
+            border-style: double;
+            bottom: 0px;
+            background-color: rgb(6, 27, 6);
+        }
+        
+        .animate__animated.animate__bounceInLeft{
+            --animate-duration: 4s;
+          }
+          .animate__animated.animate__rotateIn{
+            --animate-duration:2s;
+            animation-delay: 2s;
+        }
+        .animate__animated__bounceInRight{ 
+            --animate-duration: 4s;
+            animation-delay: 2s;
+          }
+          .animate__animated__bounceInLeft{ 
+            --animate-duration: 4s;
+            animation-delay: 4s;
+          }
+          .animate__animated__bounceInRight{
+            --animate-duration: 4s;
+            animation-delay: 6s;
+          }
+          .foo{
+              color: white;
+        /* border-style: double; */
+        /* background-color: yellow; */
+            width: 40%;
+            padding:20px;
+            margin-top: 50px;
+          }
+          .lin{
+              margin-top: 100px;  
+                padding-left: 0px;   
+          }
+          a{
+              color: white;
+                display: block;
+                margin: 15px;
+              text-decoration: none;
+          }
+          .fa{
+              border-radius: 50%;
+              border-style: none;
+              text-decoration: none;
+              width: 20px;
+              padding: 5px;
+              list-style-type: none; 
+          }
+          .fot{
+              display: flex;      
+          }
+          .icon{
+              padding-right: 10px;
+          }
+}
+
+
+@media (max-width: 425px) {
+   
+
+    .head{
+        background-image: url(./images/bg-hero-desktop.svg);
+        /* width: 100%; */
+        
+        background-size: contain;
+        height: auto;
+        padding: 2%;
+        /* background-color: yellow; */
+        /* border-style: dashed; */
+        background-color: lightblue;
+        }
+        
+        .header{
+            display: flex;
+        }
+        .tif{
+            /* padding: 10px; */
+            background-color: white;
+            width: 120px;
+            border-radius: 45px;
+            margin-left: 5%;
+            cursor: pointer;
+        }
+        .log{
+            margin-left: 1%;
+            margin-top: 1%;
+            width: 140px;
+            /* margin-top: 20px; */
+        }
+        .sec{
+            display:block;
+            /* justify-content: space-between;  */
+            margin-left: 5%;
+             padding-top: 5%; 
+             width: 90%;
+        }
+        .red{
+            padding-top: 2%;
+             /* position: relative; */
+              top: 0px;  
+              padding-bottom: 2%;
+        }
+        
+        .wid{
+            width: 50%;
+        }
+        .trial{
+            background-image: url(./images/bg-hero-desktop.svg);
+            border-style: dashed;
+            background-size:cover;
+            background-position: center;
+            height: auto;
+            width: auto;
+            background-size: contain;  
+        }
+        .fir{
+            width: 100%;
+            padding-top: 30px;
+            height: 300px;
+            /* float: left; */
+            height: auto;
+            margin-left: 5px;
+            /* background-color:green; */
+        }
+        .fle{
+            display: block;
+        }
+        
+        .mok{
+            width: 100%;
+            padding-top: 30px;
+            /* margin-left: 25%; */
+            /* background-color: hotpink; */
+        }
+        .mokk{
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .get{
+            padding: 10px;
+            color: white;
+            background-color:palevioletred;
+            width: 50%;
+            border-radius: 45px;
+            cursor: pointer;
+        }
+        .get2{
+            margin-left: 15%;
+            width: 65%;
+        }
+        .imgg{
+            /* border-style: double; */
+            /* background-color: green; */
+            /* margin-left: 250px; */
+            width: 100%;
+        }
+        .gro{
+            /* border-style: double; */
+            width: 100%;
+        }
+        .second{
+            /* border-style: dashed; */
+            display: block;
+            /* box-shadow: 2px 5px 3px 4px whitesmoke;  */
+            box-shadow: -1px -1px 13px 10px whitesmoke;
+            padding: 5%;  
+            border-radius: 30px;
+        }
+        .grow{
+            /* width: 330px; */
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        
+        .grow2{  
+            /* width: 267px; */
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        .four{
+            /* border-style: double; */
+            width:auto;
+            margin-left:0%;
+            /* padding: 1%; */
+            background-color: white;
+            /* box-shadow: 2px 0px 0px 2px whitesmoke; */
+            border-radius: 15px;
+            box-shadow: 2px 5px 3px 4px whitesmoke;
+        }
+        
+        .foot{
+            /* height: auto; */
+            display: block;
+            border-style: double;
+            bottom: 0px;
+            background-color: rgb(6, 27, 6);
+        }
+        
+        .animate__animated.animate__bounceInLeft{
+            --animate-duration: 4s;
+          }
+          .animate__animated.animate__rotateIn{
+            --animate-duration:2s;
+            animation-delay: 2s;
+        }
+        .animate__animated__bounceInRight{ 
+            --animate-duration: 4s;
+            animation-delay: 2s;
+          }
+          .animate__animated__bounceInLeft{ 
+            --animate-duration: 4s;
+            animation-delay: 4s;
+          }
+          .animate__animated__bounceInRight{
+            --animate-duration: 4s;
+            animation-delay: 6s;
+          }
+          .foo{
+              color: white;
+        /* border-style: double; */
+        /* background-color: yellow; */
+            width: 100%;
+            padding:0px;
+            margin-top: 0px;
+          }
+          .lin{
+              margin-top: 0px;  
+                /* padding-left: 80px;    */
+          }
+          a{
+              color: white;
+                display: block;
+                margin: 15px;
+              text-decoration: none;
+          }
+          .fa{
+              border-radius: 50%;
+              border-style: none;
+              text-decoration: none;
+              width: 20px;
+              padding: 5px;
+              list-style-type: none; 
+          }
+          .fot{
+              display: flex;      
+          }
+          .icon{
+              padding-right: 10px;
+          }
+
+
+}
